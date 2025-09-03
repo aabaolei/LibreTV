@@ -21,23 +21,46 @@ const SITE_CONFIG = {
 };
 
 // API站点配置
-const API_SITES = {
+const API_SITES: {
   heimuer: {
-    api: 'https://json.heimuer.xyz/api.php/provide/vod',
-    name: '黑木耳影视',
+    api: "https://json.heimuer.xyz/api.php/provide/vod",
+    name: "黑木耳"
+  },
+  fqzy: {
+    api: "http://api.fqzy.cc/api.php/provide/vod",
+    name: "番茄资源"
+  },
+  wujin: {
+    api: "https://api.wujinapi.com/api.php/provide/vod",
+    name: "无尽资源"
+  },
+  uku: {
+    api: "https://api.apibdzy.com/api.php/provide/vod",
+    name: "百度云资源"
+  },
+  hongniu: {
+    api: "https://www.hongniuzy1.com/inc/api.php",
+    name: "红牛资源"
+  },
+  qilin: {
+    api: "https://www.qilinzyz.com/api.php/provide/vod",
+    name: "麒麟资源"
+  },
+  kuaibozy: {
+    api: "http://www.kuaibozy.com/api.php/provide/vod/from/kbm3u8/at/xml",
+    name: "快播资源"
+  },
+  yilan: {
+    api: "http://zy.yilans.net:8090/api.php/provide/vod",
+    name: "8090资源"
+  },
+  api360zy: {
+    api: "https://360zy.com/api.php/provide/vod",
+    name: "360影视"
   },
   ffzy: {
-    api: 'http://ffzy5.tv/api.php/provide/vod',
-    name: '非凡影视',
-  },
-  tyyszy: {
-    api: 'https://tyyszy.com/api.php/provide/vod',
-    name: '天涯资源',
-  },
-  zy360: {
-    api: 'https://360zy.com/api.php/provide/vod',
-    name: '360资源',
-  },
+    api: "http://ffzy5.tv/api.php/provide/vod",
+    name: "非凡影视"
   dbzy: {
     api: 'https://dbzy.com/api.php/provide/vod',
     name: '豆瓣资源',
