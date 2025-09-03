@@ -22,27 +22,27 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES: {
-  uku: {
-    api: "https://api.apibdzy.com/api.php/provide/vod",
-    name: "百度云资源"
+  "360zy": {
+    api: "https://360zy.com",
+    name: "360资源网"
   },
-  kuaibozy: {
-    api: "http://www.kuaibozy.com/api.php/provide/vod/from/kbm3u8/at/xml",
-    name: "快播资源"
+  "heimuer": {
+    api: "https://heimuer.tv",
+    name: "黑木耳影视"
   },
-  api360zy: {
-    api: "https://360zy.com/api.php/provide/vod",
-    name: "360影视"
-  },
-  ffzy: {
-    api: "http://ffzy5.tv/api.php/provide/vod",
+  "ffzy": {
+    api: "http://ffzy5.tv",
     name: "非凡影视"
-  dbzy: {
-    api: 'https://dbzy.com/api.php/provide/vod',
-    name: '豆瓣资源',
   },
-  // …其他可选
-};
+  "tyyszy": {
+    api: "https://tyyszy.com",
+    name: "天涯资源"
+  },
+  "example": {
+    api: "https://example.com",
+    name: "示例CMS源"
+  }
+}
 
 // 定义合并方法
 function extendAPISites(newSites) {
