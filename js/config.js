@@ -22,12 +22,27 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    }
-    //ARCHIVE https://telegra.ph/APIs-08-12
+  heimuer: {
+    api: 'https://json.heimuer.xyz/api.php/provide/vod',
+    name: '黑木耳影视',
+  },
+  ffzy: {
+    api: 'http://ffzy5.tv/api.php/provide/vod',
+    name: '非凡影视',
+  },
+  tyyszy: {
+    api: 'https://tyyszy.com/api.php/provide/vod',
+    name: '天涯资源',
+  },
+  zy360: {
+    api: 'https://360zy.com/api.php/provide/vod',
+    name: '360资源',
+  },
+  dbzy: {
+    api: 'https://dbzy.com/api.php/provide/vod',
+    name: '豆瓣资源',
+  },
+  // …其他可选
 };
 
 // 定义合并方法
